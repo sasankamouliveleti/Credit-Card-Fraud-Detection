@@ -186,7 +186,7 @@ def random_for_smote():
 
         #plt.show()
 def choose():
-    tempdir = filedialog.askopenfilename(parent=root, initialdir= "C:/Users/Kaushik/Desktop/", title='Please select a directory')
+    tempdir = filedialog.askopenfilename(parent=root, initialdir= "D:\Works\Credit Card Fraud", title='Please select a directory')
     var.set(tempdir)
     if(len(var.get())>0):
         mEntry.insert(0,var)
